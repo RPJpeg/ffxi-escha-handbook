@@ -1,0 +1,111 @@
+body {
+  font-family: "Raleway", sans-serif; }
+
+p, a {
+  font-size: 16px;
+  font-size: 1rem; }
+
+a {
+  text-decoration: none;
+  -webkit-transition: color 0.3s ease;
+  -moz-transition: color 0.3s ease;
+  -ms-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
+  transition: color 0.3s ease; }
+
+body, p, a, div, li, ul, img {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+.float-right {
+  float: right; }
+
+.float-left {
+  float: left; }
+
+.no-padding {
+  padding: 0; }
+
+.no-margin {
+  margin: 0; }
+
+footer {
+  background-color: #030303;
+  height: 30vh;
+  color: #eee; }
+
+.navigation {
+  background-color: #030303;
+  color: #eee; }
+
+a {
+  color: #eee;
+  margin: 0; }
+  a:hover {
+    color: #f04a23; }
+
+ul {
+  margin-left: auto;
+  margin-right: auto;
+  margin: 1;
+  padding: 1;
+  font-size: 0px;
+  font-size: 0rem; }
+
+li {
+  display: inline-block;
+  padding: 25px;
+  margin: 0;
+  padding: 1;
+  text-align: center;
+  font-size: 16px;
+  font-size: 1rem; }
+  @media only screen and (max-width: 30em) {
+    li {
+      font-size: 12px;
+      font-size: 0.75rem; } }
+
+.center-box {
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  max-width: 1200px;
+  margin: 0 auto; }
+  @media only screen and (max-width: 30em) {
+    .center-box {
+      width: 95%; } }
+
+.logo-box {
+  position: relative;
+  width: 50px; }
+  .logo-box span {
+    opacity: 0; }
+  .logo-box .logo {
+    height: 45px;
+    position: absolute;
+    top: 10px;
+    right: 15px; }
+    @media only screen and (max-width: 30em) {
+      .logo-box .logo {
+        height: 35px;
+        top: 12px; } }
+
+main {
+  background-color: #151515;
+  height: 100vh;
+  width: 85%;
+  max-width: 1200px;
+  margin: 0 auto; }
+  @media only screen and (max-width: 30em) {
+    main {
+      width: 95%; } }
+
+body {
+  background-color: #5b5c5d;
+  background-image: url("../images/congruent_outline.png");
+  background-position: center;
+  background-repeat: repeat;
+  background-size: auto; }
+
+/*# sourceMappingURL=app.css.map */

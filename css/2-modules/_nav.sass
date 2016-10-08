@@ -1,0 +1,42 @@
+.navigation
+  background-color: $dark-black
+  color: $light-grey
+a
+  color: $light-grey
+  margin: 0
+  &:hover
+    color: $light-highlight
+
+ul
+  +center-it
+  margin: 1
+  padding: 1
+  @include font-size(0px)
+
+li
+  display: inline-block
+  padding: 25px
+  margin: 0
+  padding: 1
+  text-align: center
+  @include font-size(16px)
+  @include bp-small
+    @include font-size(12px)
+
+.center-box
+  +center-it
+  +wrapper
+
+.logo-box
+  position: relative
+  width: 50px
+  span
+    opacity: 0
+  .logo
+    height: 45px
+    position: absolute
+    top: 10px
+    right: 15px
+    @include bp-small
+      height: 35px
+      top: 12px
