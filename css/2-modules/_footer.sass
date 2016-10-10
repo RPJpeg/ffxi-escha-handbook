@@ -1,4 +1,17 @@
 footer
   background-color: $dark-black
-  height: 30vh
-  color: $light-grey
+  height: 100px
+  color: $site-grey
+  +wrapper
+
+footer ul
+  padding-top: 35px
+  +side-padding
+
+footer li
+  display: inline
+
+footer a
+  color: $light-highlight
+  &:hover
+    color: white

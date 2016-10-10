@@ -1,19 +1,19 @@
 .navigation
   background-color: $dark-black
-  color: $light-grey
-a
-  color: $light-grey
+  color: $site-grey
+header a
+  color: $site-grey
   margin: 0
   &:hover
     color: $light-highlight
 
-ul
+header ul
   +center-it
   margin: 1
   padding: 1
   @include font-size(0px)
 
-li
+header li
   display: inline-block
   padding: 25px
   margin: 0
@@ -22,6 +22,7 @@ li
   @include font-size(16px)
   @include bp-small
     @include font-size(12px)
+    padding: 20px
 
 .center-box
   +center-it

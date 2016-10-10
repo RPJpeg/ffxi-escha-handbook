@@ -1,0 +1,22 @@
+.hero
+  background-image: url("../images/escha.jpg")
+  background-position: center
+  background-repeat: no-repeat
+  background-size: cover
+  display: flex
+  align-items: center
+  justify-content: center
+  width: 100%
+  height: 40vh
+
+.hero h1
+  color: $dark-highlight
+  background-color: $light-black
+  opacity: .8
+  font-weight: bold
+  font-family: $press-font-stack
+  padding: 30px
+  +border-radius(10px)
+  @include font-size(50px)
+  @include bp-small
+    @include font-size(20px)
